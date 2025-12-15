@@ -17556,7 +17556,7 @@ async function mD(e10) {
 const uY = () => {
   const [e10, t] = w.useState(null), [n, r] = w.useState(null), [o, l] = w.useState(null), [s, c] = w.useState(null);
   w.useEffect(() => {
-    mD("/neuroreversi_engine_bg.wasm").then(() => {
+    mD("./neuroreversi_engine_bg.wasm").then(() => {
       try {
         const f = new ko();
         c(f);
